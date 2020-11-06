@@ -51,7 +51,7 @@ function startLavalink() {
 
 
 console.log('Fetching latest Lavalink.jar url...')
-fetch('https://api.github.com/repos/Frederikam/Lavalink/releases/latest')
+fetch('https://api.github.com/repos/MeLike2D/Lavalink/releases/latest')
     .then(res => res.json())
     .then(json => {
         console.log('Found: '+json.assets[0].browser_download_url)
